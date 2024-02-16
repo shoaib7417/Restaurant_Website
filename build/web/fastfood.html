@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>FastFood</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body style="background-image: url('images/image (1).jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; margin: 0;">
+        
+        <div style="height: 50px; width: 1200px;">
+            <a href="index.html" style="text-decoration: none">
+            <input type="button" value="Back" style="background-color: lightgray;font-weight: bold; height: 30px; width: 80px; border-radius: 50px"><!-- comment -->
+            </a>
+            <center>
+                <h1 style="color: whitesmoke">Fast Food Items</h1>
+            </center>
+        </div>
+        <div style="height: 700px; width: 1200px; display: flex; margin-top: 30px">
+            <div style=" height: 600px; width: 400px;">
+                 <center>
+                    <div style="height: 150px; width: 50%; margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem1.jpg"><!-- comment -->
+                    </div>
+                    <div style="height: 150px; width: 50%;   margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem2.jpg"><!-- comment -->
+                    </div>
+                    <div style="height: 150px; width: 50%;  margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem4.jpg"><!-- comment -->
+                    </div>
+                </center>
+            </div>
+            <div style="height: 700px;width:400px">
+                <form action="Fastfood_order">
+                    <center>
+                        <table border="0px">
+                            <thead>
+                                <tr>
+                                    <th style="font-size: 30px; padding-right: 50px;font-style: oblique; padding-top: 50px; color: white">Items</th>
+                                    <th style="font-size: 30px; padding-left: 60px;font-style: oblique; padding-top: 50px; color: white">Quantity</th>
+                                </tr>
+                            </thead>
+                        
+                            <tbody>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white">
+                                        <input type="checkbox" style="margin-left:10px;" value="pizza" name="c1">Pizza
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q1" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                               
+                                </tr>
+                              
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white">
+                                        <input type="checkbox" style="margin-left:10px;" value="burger" name="c1">Burger
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q2" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                               
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white" >
+                                        <input type="checkbox" style="margin-left:10px;" value="garlicbread" name="c1">Garlic Bread
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q3" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                               
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white"  >
+                                        <input type="checkbox" style="margin-left:10px;" value="whitesausepasta" name="c1">White Sauce Pasta
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q4" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                               
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white" >
+                                        <input type="checkbox" style="margin-left:10px;" value="maggi" name="c1">Maggi
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q5" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                               
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white" >
+                                        <input type="checkbox" style="margin-left:10px;" value="frenchfries" name="c1">French Fries
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q6" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white" >
+                                        <input type="checkbox" style="margin-left:10px;" value="chillipotato" name="c1">Chilli Potato
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q7" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 50px; font-size: 20px; color: white" >
+                                        <input type="checkbox" style="margin-left:10px;"value="samosa" name="c1">Samosa
+                                    </td>
+                                    <td>
+                                        <input type="number" name="q8" min="0" max="10" style="width: 40px; text-align: center; margin-left: 80px;">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="submit" value="Order Now" name="Fastfood_order" value="Fastfood_order" style="height: 50px; width: 120px; border-radius: 20px; font-weight: bold; font-size: 20px; margin-top: 200px;"><!-- comment -->
+                    </center>
+                </form>
+            </div>
+            <div style="height: 600px; width: 400px; ">
+                 <center>
+                    <div style="height: 150px; width: 50%; margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem8.jpg"><!-- comment -->
+                    </div>
+                    <div style="height: 150px; width: 50%;   margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem5.jpg"><!-- comment -->
+                    </div>
+                    <div style="height: 150px; width: 50%;  margin-top: 35px ">
+                        <img  style="height: 150px; width: 100%; border-radius: 30px"src="images/fastfooditem6.jpg"><!-- comment -->
+                    </div>
+                </center>
+            </div>
+        </div>
+        
+        <div style="height: 40px; width: 1200px; display: flex; margin-top: -50px">
+            <label style="margin-left: 80px; color: white">Name:
+                <input type="text" placeholder="Enter Name" style="height: 20px; width: 180px; background-color: whitesmoke; font-size: 20px; font-style: oblique; " required/> 
+            </label>
+            
+            <label style="margin-left: 550px; color: white">Phone No:
+                <input type="text" placeholder="Enter Phone" style="height: 20px; width: 180px; background-color: whitesmoke; font-size: 20px; font-style: oblique;" required/>
+            </label>
+        </div>
+        
+        <footer style="height: 50px; width: 1200px; margin-top: 150px;">
+             <center>
+                 <div style="height: 40px; width: 250px; ">
+                     <p style="color: white">&#169; ApnaAdda.All Rights Reserved</p>
+                </div>
+            </center>
+        </footer>
+    </body>
+</html>
